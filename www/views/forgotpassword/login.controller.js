@@ -12,7 +12,7 @@
       };
       $scope.login=function () {
         var account=localStorageService.get(USER_KEY,{
-          username:'asd',
+          username:'zyk',
           password:'123'
         });
         if (account.username===$scope.user.username&&account.password===$scope.user.password){

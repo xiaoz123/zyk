@@ -8,7 +8,7 @@
       $state.go('app.home')
     };
     $scope.shop = {
-      shopPhone:'18650327647'
+      shopPhone:'13295015238'
     }
     $scope.callPhone = function () {
       location.href ='tel:' + $scope.shop.shopPhone;
